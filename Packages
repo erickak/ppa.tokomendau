@@ -1,0 +1,36 @@
+Package: desktop-meta-stage1
+Version: 0.1
+Architecture: all
+Maintainer: dan <dan@beryllium>
+Installed-Size: 9
+Depends: sudo, i3, vim, nfs-common, tmux, git, curl, apt-transport-https, nodejs, npm, clojure, leiningen, equivs
+Filename: ./desktop-meta-stage1_0.1_all.deb
+Size: 2304
+MD5sum: bf70de0245bd1f5e7bf3903f3b21e749
+SHA1: e9ef631e094ae50cbf1e3f2cdcf944f86ba5309d
+SHA256: 9b366aef4c5746964773f687b5e1faeb473067b460fb46e409b0d7e0f9768797
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.tokomendau.net
+Description: This package is the metapackage that installs my desktop components
+ This package is the metapackage that installs my desktop components
+
+Package: desktop-meta-stage2
+Version: 0.1
+Architecture: all
+Maintainer: dan <dan@beryllium>
+Installed-Size: 9
+Depends: desktop-meta-stage1, dotnet-sdk-3.1
+Filename: ./desktop-meta-stage2_0.1_all.deb
+Size: 2188
+MD5sum: 56314b29455417438a5a71a04c832e93
+SHA1: 1d0874d683b3d35f94e93c655a67452388511766
+SHA256: af84c92d108347bfc8f3d74f26900dc47ca0b4ee0990192784dd2a3da74d6e9c
+Section: misc
+Priority: optional
+Multi-Arch: foreign
+Homepage: http://www.tokomendau.net
+Description: This package is the metapackage that installs my desktop components
+ This package is the metapackage that installs my desktop components
+
