@@ -1,14 +1,14 @@
 Package: desktop-meta-stage1
 Version: 0.1
 Architecture: all
-Maintainer: dan <dan@beryllium>
+Maintainer: ericka <ericka@beryllium.tokomendau.net>
 Installed-Size: 9
-Depends: sudo, i3, vim, nfs-common, tmux, git, curl, apt-transport-https, nodejs, npm, clojure, leiningen, equivs
+Depends: sudo, i3, vim-nox, nfs-common, tmux, git, curl, apt-transport-https, clojure, leiningen, equivs, gimp, kazam, keepassxc
 Filename: ./desktop-meta-stage1_0.1_all.deb
-Size: 2304
-MD5sum: bf70de0245bd1f5e7bf3903f3b21e749
-SHA1: e9ef631e094ae50cbf1e3f2cdcf944f86ba5309d
-SHA256: 9b366aef4c5746964773f687b5e1faeb473067b460fb46e409b0d7e0f9768797
+Size: 2336
+MD5sum: 3b9cb560b016f67ca55ee3416e3538ab
+SHA1: 4fe715822b8c66a532e57c83e1bde0961c79a44a
+SHA256: 7c2267d5bec27f89b82bbf6857c3c7cef949d122aa0ff69a37915d5de5a17e27
 Section: misc
 Priority: optional
 Multi-Arch: foreign
@@ -19,14 +19,14 @@ Description: This package is the metapackage that installs my desktop components
 Package: desktop-meta-stage2
 Version: 0.1
 Architecture: all
-Maintainer: dan <dan@beryllium>
+Maintainer: ericka <ericka@beryllium.tokomendau.net>
 Installed-Size: 9
-Depends: desktop-meta-stage1, dotnet-sdk-3.1
+Depends: desktop-meta-stage1, dotnet-sdk-3.1, dotnet-sdk-2.0
 Filename: ./desktop-meta-stage2_0.1_all.deb
-Size: 2188
-MD5sum: 56314b29455417438a5a71a04c832e93
-SHA1: 1d0874d683b3d35f94e93c655a67452388511766
-SHA256: af84c92d108347bfc8f3d74f26900dc47ca0b4ee0990192784dd2a3da74d6e9c
+Size: 2212
+MD5sum: f65dd716d3ea3c38f4124b56030f0297
+SHA1: 5da601973989ca10bedc905d65d50dbbd8a29d4e
+SHA256: 57221cb83c31e87578c3545f9c3e6a17f361f82fbf90bbfbeb07a88be43fe5e3
 Section: misc
 Priority: optional
 Multi-Arch: foreign
