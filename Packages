@@ -5,10 +5,10 @@ Maintainer: ericka <ericka@beryllium.tokomendau.net>
 Installed-Size: 9
 Depends: sudo, i3, vim-nox, nfs-common, tmux, git, curl, apt-transport-https, clojure, leiningen, equivs, gimp, kazam, keepassxc
 Filename: ./desktop-meta-stage1_0.1_all.deb
-Size: 2336
-MD5sum: 3b9cb560b016f67ca55ee3416e3538ab
-SHA1: 4fe715822b8c66a532e57c83e1bde0961c79a44a
-SHA256: 7c2267d5bec27f89b82bbf6857c3c7cef949d122aa0ff69a37915d5de5a17e27
+Size: 2340
+MD5sum: 1937ce0ad4a3f85234ce853bc1c708f8
+SHA1: 01227e01415d874b62621c2791ee49bf64b7bbc8
+SHA256: 95d313ca9841896d3d63bc4464399e2accc5ff0dced177bd6cf1698877b759f8
 Section: misc
 Priority: optional
 Multi-Arch: foreign
@@ -21,12 +21,12 @@ Version: 0.1
 Architecture: all
 Maintainer: ericka <ericka@beryllium.tokomendau.net>
 Installed-Size: 9
-Depends: desktop-meta-stage1, dotnet-sdk-3.1, dotnet-sdk-2.0
+Depends: desktop-meta-stage1, dotnet-sdk-3.1, dotnet-sdk-2.2
 Filename: ./desktop-meta-stage2_0.1_all.deb
-Size: 2212
-MD5sum: f65dd716d3ea3c38f4124b56030f0297
-SHA1: 5da601973989ca10bedc905d65d50dbbd8a29d4e
-SHA256: 57221cb83c31e87578c3545f9c3e6a17f361f82fbf90bbfbeb07a88be43fe5e3
+Size: 2216
+MD5sum: e5fc5015b460b49a3e40a5021578f56b
+SHA1: b55062ee19c105cbbc974ab0a54b24a706f5e2ec
+SHA256: eed712a7a9bb31a1ca98047c6fa65b013c4c58086b3f65cf0aafb08fcd4bfde0
 Section: misc
 Priority: optional
 Multi-Arch: foreign
